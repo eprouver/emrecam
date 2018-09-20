@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "emoji";
+  src: url("../fonts/noto.ttf") format("truetype");
+}
+
+#zeth #o {
+  line-height: 1.1em;
+  font-family: Courier;
+  font-size: 20.2vh;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  border: 5px solid black;
+  top: 50%;
+  margin-top: -1em;
+}
+#zeth #o v {
+  color: red;
+  height: 1em;
+  position: relative;
+}
+#zeth #o v:before {
+  content: '';
+  position: absolute;
+  height: 1.14em;
+  border: 0.12em solid black;
+  width: 5px;
+  background: inherit;
+  top: 0;
+  border-left: none;
+  border-right: none;
+  margin-left: 0.25em;
+  box-sizing: border-box;
+}
+
+#i {
+  overflow: auto;
+  padding: 20px;
+  width: 100%;
+  height: 350px;
+  border: 1px solid;
+}
+
+.hide {
+  display: none;
+}
+
+#video, #emoji {
+  position: absolute;
+  top: 0vh;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 120px;
+  text-align: center;
+  font-family: emoji;
+}
+
+.col {
+  height: 49vh;
+}
+
+.progress {
+  position: absolute;
+  margin-top: -5vh;
+}

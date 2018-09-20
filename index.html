@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Zethos</title>
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+  <div class="row">
+    <div id="zeth" class="col" onclick="zeth.start()">
+      <div id="o" >&nbsp;</div>
+    </div>  </div>
+  <div class="row">
+<div class="progress w-100">
+  <div id="read" class="progress-bar" role="progressbar" style="width: 25%"></div>
+</div>
+  </div>
+  <div class="row">
+    <div id="emoji-holder" class="col">
+      <div id="emoji">
+        👍
+      </div>
+    </div>
+    <div id="video-holder" class="col">
+      <video id="video" autoplay></video>
+    </div>
+  </div>
+</div>
+
+<textarea id="i">
+  As it would be difficult to reconcile it with the friendly relations
+  existing between the United States and the colonies.
+</textarea>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+  <script src='https://unpkg.com/compromise@latest/builds/compromise.min.js'></script>
+  <script  src="js/emoji.js"></script>
+  <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

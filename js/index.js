@@ -99,7 +99,7 @@ const zeth = (function() {
           Math.round(
             o.getBoundingClientRect().width /
               parseInt(window.getComputedStyle(o).fontSize) *
-              0.78
+              1.2
           ) - w[1]
         ).join("&nbsp;") +
         w[0].slice(0, w[1]) +
